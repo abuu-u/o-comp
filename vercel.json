@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/api/:match*",
+      "source": "http://localhost:3000/api/:match*",
       "destination": "http://o-complex.com:1337/:match*"
     }
   ]
