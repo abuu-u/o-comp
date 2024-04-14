@@ -1,5 +1,6 @@
-const BASE_URL =
-  process.env.NODE_ENV === 'production' ? '/api' : 'http://o-complex.com:1337'
+const BASE_URL = process.env.NODE_ENV
+  ? 'http://localhost:3000/api'
+  : 'http://o-complex.com:1337'
 
 export interface Product {
   id: number
