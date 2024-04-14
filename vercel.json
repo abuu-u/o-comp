@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api*",
+      "destination": "http://o-complex.com:1337*"
+    }
+  ]
+}
